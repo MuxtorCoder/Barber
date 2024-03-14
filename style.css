@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.big{
+    max-width: 1700px;
+}
+.part{
+    padding: 0 40px;
+}
+.togle{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #163561;
+    margin-left: 35px;
+    font-weight: bold;
+}
+.a1{
+    background-color: #A3C1EF;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.spn{
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-items: flex-end;
+}
+.spn1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #99BAED;
+    bottom: 15px;
+}
+.user, .bell{
+    font-size: 35px;
+    color: #A3C1EF;
+    margin-right: 50px;
+}
+.div1{
+    margin-left: 60px;
+}
+.o2{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border: 3px solid white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 100px;
+    font-size: 10px;
+}
+.icons{
+    position: relative;
+}
+.spn2{
+    color: #FBB400;
+}
+.h2{
+    font-size: 40px;
+}
+.togle1, .togle2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #677B98;
+}
+.aa1{
+    margin-top: 100px;
+}
+.h22{
+    font-size: 40px;
+}
+.spn3{
+    color: #FBB400;
+}
+.togle3{
+    margin-top: 120px;
+}
+.h222{
+    text-align: center;
+    font-size: 40px;
+}
+
+.spn4{
+    color: #FBB400;
+}
+.h3{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #163561;
+}
+.div0:hover .h3{
+    color: white;
+}
+.pot{
+    text-align: center;
+    color: #657A98;
+    font-size: 18px;
+}
+.div0{
+    background-color: #dce2fb;
+    border-radius: 25px;
+    margin: auto;
+    padding: 100px;
+    transition: 0.2s all linear;
+    box-shadow: 0 10px 0 0  #99BAED;
+}
+.pic{
+    text-align: center; 
+}
+.img4{
+    background-color: #E5ECFE;
+    padding: 25px 15px;
+    border-radius: 15px;
+}
+.img5{
+    background-color: #E5ECFE;
+    padding: 10px 15px;
+    border-radius: 15px;
+    filter: grayscale(100%);
+}
+
+.content3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 65px;
+
+}
+.div0:hover{
+    background-color: #99BAED;
+}
+.h33{
+    font-size: 45px;
+    text-align: center;
+    padding: 150px;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    row-gap: 40px;
+    margin: auto;
+}
+.futer{ 
+    text-align: center;
+    padding: 85px;
+}
+.divs{
+    text-align: center;
+}
+.fot{
+    text-align: center;
+    color: #657A98;
+    margin-top: 25px;
+}
+.icont_futers{
+    text-align: center;
+    border-top: #677B98;
+    margin: 100px;
+}
+.fut{
+    font-size: 25px;
+    margin: 15px;
+    color: white;
+}
+.linkss{
+    border-radius: 50px;
+    background-color: #99BAED;
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+@media (max-width: 1422px){
+    .content3{
+        width: 75%;
+        margin: auto;
+        row-gap: 65px;
+    }
+}
+@media (max-width: 1052px){
+    .togle{
+        text-align: center;
+        row-gap: 35px;
+    }
+    .links{
+        margin: auto;
+    }
+    .icons{
+        margin: auto;
+    }
+}
+@media (max-width:752px){
+    .box1{
+        row-gap: 45px;
+    }
+    .content{
+        margin-bottom: 65px;
+        text-align: center;
+    }
+    .box2{
+        text-align: center;
+    }
+}
